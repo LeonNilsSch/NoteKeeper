@@ -11,10 +11,6 @@ Die Anwendung wurde mit modernen Webtechnologien wie Vite, React und Tailwind CS
 - [Verwendete Werkzeuge und Technologien](#verwendete-werkzeuge-und-technologien)
 - [Voraussetzungen](#voraussetzungen)
 - [Installation](#installation)
-- [Verwendung](#verwendung)
-- [Ordnerstruktur](#ordnerstruktur)
-- [Design und Styling](#design-und-styling)
-- [Lizenz](#lizenz)
 
 ## Über das Projekt
 
