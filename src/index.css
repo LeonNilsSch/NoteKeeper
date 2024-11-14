@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Cinzel', serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #f0e6d2; /* Helles Pergament-Farbton */
+  background-color: #2d2a1f; /* Dunkles Braun für den Hintergrund */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #d4af37; /* Goldene Akzentfarbe */
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd700; /* Helles Gold bei Hover */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #2d2a1f;
+  color: #f0e6d2;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  color: #d4af37; /* Gold für Titel */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3e2b1f; /* Dunkles Lederbraun */
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #f0e6d2;
+}
+button:hover {
+  border-color: #d4af37; /* Gold bei Hover */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+nav {
+  background-color: #4a392f; /* Dunkles Holz für den Navbar-Hintergrund */
+  border-bottom: 2px solid #d4af37; /* Goldene Akzentlinie */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #3c2a1d; /* Dunkles Pergament-Gelb für den Text */
+    background-color: #f4f1e1; /* Helles Pergament-Gelb für den Hintergrund */
+  }
+  a:hover {
+    color: #ffcc00; /* Helles Gold bei Hover */
+  }
+  button {
+    background-color: #b67c53; /* Helles Lederbraun */
+  }
+}
